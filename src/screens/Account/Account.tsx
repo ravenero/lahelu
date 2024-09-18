@@ -7,7 +7,7 @@ import useAccount from './useAccount';
 let contextValue = {};
 const AccountContext = createContext(contextValue);
 
-const Account = () => {
+const Account: React.FC = () => {
   const { } = useAccount();
   contextValue = {};
 

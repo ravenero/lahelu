@@ -7,7 +7,7 @@ import useNotifications from './useNotifications';
 let contextValue = {};
 const NotificationsContext = createContext(contextValue);
 
-const Notifications = () => {
+const Notifications: React.FC = () => {
   const { } = useNotifications();
   contextValue = {};
 

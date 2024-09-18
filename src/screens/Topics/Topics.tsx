@@ -7,7 +7,7 @@ import useTopics from './useTopics';
 let contextValue = {};
 const TopicsContext = createContext(contextValue);
 
-const Topics = () => {
+const Topics: React.FC = () => {
   const { } = useTopics();
   contextValue = {};
 

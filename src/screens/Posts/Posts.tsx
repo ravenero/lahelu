@@ -7,7 +7,7 @@ import usePosts from './usePosts';
 let contextValue = {};
 const PostsContext = createContext(contextValue);
 
-const Posts = () => {
+const Posts: React.FC = () => {
   const { } = usePosts();
   contextValue = {};
 
